@@ -16,6 +16,8 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var btnLogin: UIButton!
     
+    var user : UserModel?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +42,9 @@ class LoginViewController: UIViewController {
                 if httpStatusCode==200{
                     let message = response["message"] as? String ?? "Unknown response"
                     print(Thread.isMainThread)
+                    let data = response["data"]
+                    self.user = UserModel.decode(json: response["data"]! as! [String : Any])!
+                    //print(user.city)
                     self.performSegue(withIdentifier: Segue.toMainViewController, sender: nil)
                 }
                 else{
@@ -56,6 +61,14 @@ class LoginViewController: UIViewController {
         })
         
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == Segue.toMainViewController{
+            if let mainViewController = segue.destination as? MainViewController{
+                mainViewController.userModel = user
+            }
+        }
     }
     
     

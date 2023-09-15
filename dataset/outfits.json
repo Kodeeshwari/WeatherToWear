@@ -1,0 +1,283 @@
+{
+    "outfits": {
+        "cloud": {
+            "male": [
+                {
+                    "name": "Cool T-Shirt",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/t-shirt-5463389-4551876.png"
+                },
+                {
+                    "name": "Vacation wear",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/vacation-wear-5463378-4551865.png"
+                },
+                {
+                    "name": "Sweat Pant",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/sweat-pants-5463383-4551870.png"
+                },
+                {
+                    "name": "pantofel",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/pantofel-shoes-5314550-4448180.png"
+                },
+                {
+                    "name": "sunglasses",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/sunglasses-8353141-6649018.png"
+                }
+            ],
+            "female": [
+                {
+                    "name": "Dress",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/dress-5463394-4551881.png"
+                },
+                {
+                    "name": "Short dress",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/t-shirt-5463389-4551876.png"
+                },
+                {
+                    "name": "Cool short pant",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/sweatpants-8544362-6740214.png"
+                },
+                {
+                    "name": "pantofel",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/pantofel-shoes-5314550-4448180.png"
+                },
+                {
+                    "name": "sunglasses",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/beach-sunglasses-5591800-4687733.png"
+                }
+            ],
+            "other": [
+                {
+                    "name": "Mtxt1",
+                    "image": "https://fakeimg.pl/250x100/ff0000/"
+                },
+                {
+                    "name": "Mtxt2",
+                    "image": "https://fakeimg.pl/250x100/ff0000/"
+                },
+                {
+                    "name": "Mtxt3",
+                    "image": "https/text3.com"
+                }
+            ]
+        },
+        "rain": {
+            "male": [
+                {
+                    "name": "clothing",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/clothing-sale-8196161-6559306.png"
+                },
+                {
+                    "name":"participant-t-shirt",
+                    "image":"https://cdn3d.iconscout.com/3d/premium/thumb/squid-game-participant-t-shirt-4515917-3738393.png"
+                },
+                {
+                    "name": "Raincoat",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/raincoat-7902522-6328525.png"
+                },
+                {
+                    "name":"shirt",
+                    "image":"https://cdn3d.iconscout.com/3d/premium/thumb/t-shirt-merch-5020878-4183737.png"
+                },
+                {
+                    "name": "Umbrella",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/umbrella-6437981-5326243.png"
+                }
+            ],
+            "female": [
+                {
+                    "name":"shirt",
+                    "image":"https://cdn3d.iconscout.com/3d/premium/thumb/t-shirt-7473871-6068332.png"
+                },
+                {
+                    "name":"shirt",
+                    "image":"https://cdn3d.iconscout.com/3d/premium/thumb/colorful-tshirt-7485574-6138552.png"
+                },{
+                    "name":"awareness-t-shirt",
+                    "image":"https://cdn3d.iconscout.com/3d/premium/thumb/cancer-awareness-t-shirt-4851845-4043230.png"
+                },
+                {
+                    "name": "raincoat",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/raincoat-7096866-5753396.png"
+                },
+                {
+                    "name": "farm",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/farm-boots-8369628-6629589.png"
+                },
+                {
+                    "name": "Umbrella",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/umbrella-5379470-4497496.png"
+                }
+            ],
+            "other": [
+                {
+                    "name": "Mtxt1",
+                    "image": "https://fakeimg.pl/250x100/ff0000/"
+                },
+                {
+                    "name": "Mtxt2",
+                    "image": "https://fakeimg.pl/250x100/ff0000/"
+                },
+                {
+                    "name": "Mtxt3",
+                    "image": "https/text3.com"
+                }
+            ]
+        },
+        "clear": {
+            "male": [
+                {
+                    "name": "comboshirtpent",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/clothes-5167903-4328713.png"
+                },
+                {
+                    "name": "beach-shirt",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/beach-shirt-6299639-5203268.png"
+                },
+                {
+                    "name": "sports-t-shirt",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/sports-t-shirt-6907186-5671365.png"
+                },
+                {
+                    "name": "short-pants",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/short-pants-6967333-5690100.png"
+                },
+                {
+                    "name": "hat",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/hat-8369609-6655991.png"
+                },
+                {
+                    "name": "sunglasses",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/sunglasses-8353141-6649018.png"
+                }
+            ],
+            "female": [
+                {
+                    "name": "RedDress",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/dress-8470478-6713677.png"
+                },
+                {
+                    "name": "t-shirt",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/t-shirt-6468901-5350169.png"
+                },
+                {
+                    "name": "Ftxt33",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/female-dress-6014292-4980180.png"
+                },
+                {
+                    "name": "woman-dress",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/woman-dress-7566953-6169124.png"
+                },
+                {
+                    "name": "wedding-dress",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/wedding-dress-6203767-5087524.png"
+                },
+                {
+                    "name": "frock",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/frock-6014293-4980181.png"
+                },
+                {
+                    "name": "sunglasses",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/sunglasses-6330023-5204727.png"
+                }
+            ],
+            "other": [
+                {
+                    "name": "Mtxt1",
+                    "image": "https://fakeimg.pl/250x100/ff0000/"
+                },
+                {
+                    "name": "Mtxt2",
+                    "image": "https://fakeimg.pl/250x100/ff0000/"
+                },
+                {
+                    "name": "short-pants",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/short-pants-6967333-5690100.png"
+                }
+            ]
+        },
+        "snow": {
+            "male": [
+                {
+                    "name": "detective-suit",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/detective-suit-7365879-5967014.png"
+                },
+                {
+                    "name": "winter-hat",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/winter-hat-7217534-5858024.png"
+                },
+                {
+                    "name": "denim-short-pants",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/denim-short-pants-8497767-6691802.png"
+                },
+                {
+                    "name": "muslim-cloth",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/muslim-cloth-8372201-6656081.png?f=avif"
+                },
+                {
+                    "name": "suit",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/suit-6014284-4980194.png"
+                },
+                {
+                    "name": "sweater",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/sweater-6354582-5229823.png"
+                },
+                {
+                    "name": "high-school-uniform",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/high-school-uniform-6354549-5229825.png"
+                },
+                {
+                    "name": "hoodie",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/hoodie-4623424-3852017.png"
+                }
+            ],
+            "female": [
+                {
+                    "name": "Frain11",
+                    "image": "https://fakeimg.pl/250x100/ff0000/"
+                },
+                {
+                    "name": "winter-hat",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/winter-hat-7217534-5858024.png"
+                },
+                {
+                    "name": "santa-claus-pants",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/santa-claus-pants-6757104-5559884.png"
+                },
+                {
+                    "name": "sport-pant",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/sport-pant-6014277-4980187.png"
+                },
+                {
+                    "name": "hoodie",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/hoodie-6354584-5229812.png"
+                },
+                {
+                    "name": "socks",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/socks-7664061-6220644.png"
+                },
+                {
+                    "name": "jacket",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/jacket-7197887-5846506.png"
+                },
+                {
+                    "name": "hoodie",
+                    "image": "https://cdn3d.iconscout.com/3d/premium/thumb/black-hoodie-8497771-6691806.png"
+                }
+            ],
+            "other": [
+                {
+                    "name": "Mtxt1",
+                    "image": "https://fakeimg.pl/250x100/ff0000/"
+                },
+                {
+                    "name": "Mtxt2",
+                    "image": "https://fakeimg.pl/250x100/ff0000/"
+                },
+                {
+                    "name": "Mtxt3",
+                    "image": "https/text3.com"
+                }
+            ]
+        }
+    }
+}

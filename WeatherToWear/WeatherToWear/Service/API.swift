@@ -15,7 +15,6 @@ class API{
         } else {
             return nil
         }
-        
     }
     
     static func call( timeout : CGFloat = 60, baseURL : String, endPoint : String,

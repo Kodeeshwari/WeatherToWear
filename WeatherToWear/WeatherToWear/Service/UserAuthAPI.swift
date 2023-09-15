@@ -9,7 +9,7 @@ import Foundation
 
 class UserAuthAPI{
     
-    static let baseURL = "http://localhost/weathertowearAPI/"
+    static let baseURL = "https://weathertowear.000webhostapp.com/"
     
     static func signIn( email : String,
                         password : String,
@@ -40,7 +40,7 @@ class UserAuthAPI{
                         successHandler: @escaping (_ httpStatusCode : Int, _ response : [String: Any]) -> Void,
                         failHandler : @escaping (_ httpStatusCode : Int, _ errorMessage: String) -> Void) {
         
-        let endPoint = "signUp.php"
+        let endPoint = "signup.php"
         
         let header : [String:String] = [:]
         
