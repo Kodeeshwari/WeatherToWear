@@ -115,20 +115,21 @@ class DataBase
 
         if ($weathersData != null) {
 
-            $weatherShortData['city'] = $weathersData->address;
+            $weatherShortData['city'] = ucfirst($weathersData->address);
             $weatherShortData['gender'] = $gender;
             $weatherShortData['days'] = array();
 
             foreach ($weathersData->days as $day) {
 
-                $preciptype = $day->preciptype == null ? "cloud" : $day->preciptype[0];
+                $preciptype = $day->preciptype == null ? "clear" : $day->preciptype[0];
+                $datetime = date("j M Y", strtotime($day->datetime)); // format the date as "20 Mar 2023"
 
                 $weatherShortData['days'][] = array(
-                    'datetime' => $day->datetime,
-                    'temp' => number_format($day->temp, 2),
-                    'tempmax' => number_format($day->tempmax, 2),
-                    'tempmin' => number_format($day->tempmin, 2),
-                    'feelslike' => number_format($day->feelslike, 2),
+                    'datetime' => $datetime,
+                    'temp' => number_format($day->temp, 0) . '°',
+                    'tempmax' => 'H:' . number_format($day->tempmax, 0) . '°',
+                    'tempmin' => 'L:' . number_format($day->tempmin, 0) . '°',
+                    'feelslike' => number_format($day->feelslike, 0) . '°',
                     'preciptype' => $preciptype,
                     "outfits" => $this->getOutfits($preciptype, $gender)
 
@@ -137,9 +138,7 @@ class DataBase
 
 
             // return json_decode($weatherResponse);
-            return array(
-                "weather" => $weatherShortData,
-            );
+            return $weatherShortData;
 
         }
 

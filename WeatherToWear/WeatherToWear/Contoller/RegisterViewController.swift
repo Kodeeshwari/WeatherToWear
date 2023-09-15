@@ -77,39 +77,37 @@ class RegisterViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         guard let fullname = txtFullName.text,
               let email = txtEmail.text,
               let phone = txtPhone.text,
-              let gender = genderIndex,
+              let gender = selectedGender,
               let city = txtCity.text,
               let password = txtPassword.text else {
             // handle missing fields here
             Toast.ok(view: self, title: "Error", message: "No feild should be empty")
             return
         }
-        let newuser = UserModel(fullname: fullname, email: email, phone: phone, gender: gender, city: city, password: password)
+        let newuser = UserModel(fullname: fullname, email: email.lowercased(), phone: phone, gender: gender.lowercased(), city: city.lowercased(), password: password)
         
         
         
         
-            UserAuthAPI.signUp(fullname: newuser.fullName, email: newuser.email, phone: newuser.phone, gender:newuser.gender, city: newuser.city, password: newuser.password, successHandler: {(httpStatusCode,response) in
-                DispatchQueue.main.async {
-                    if httpStatusCode==200{
-                        let message = response["message"] as? String ?? "Unknown response"
-//                        Toast.ok(view: self, title: "Response", message: message+"\(Thread.isMainThread)")
-                        print(Thread.isMainThread)
-                        
-                            self.performSegue(withIdentifier: Segue.toLoginViewController, sender: self)
-                    }
-                    else{
-                        Toast.ok(view: self, title: "Response", message: "\(httpStatusCode)")
-                    }
+        UserAuthAPI.signUp(fullname: newuser.fullName, email: newuser.email, phone: newuser.phone, gender:newuser.gender, city: newuser.city, password: newuser.password, successHandler: {(httpStatusCode,response) in
+            DispatchQueue.main.async {
+                if httpStatusCode==200{
+                    let message = response["message"] as? String ?? "Unknown response"
+                    
+                    self.performSegue(withIdentifier: Segue.toLoginViewController, sender: self)
                 }
-            }, failHandler: {(httpStatusCode,errorMessage)in
-                print("HTTP Status Code: \(httpStatusCode)")
-                print("Error Message: \(errorMessage)")
-                DispatchQueue.main.async {
-                    Toast.ok(view: self, title: "Error: \(httpStatusCode)", message: "\(errorMessage)")
+                else{
+                    Toast.ok(view: self, title: "Response", message: "\(httpStatusCode)")
                 }
-
-            })
+            }
+        }, failHandler: {(httpStatusCode,errorMessage)in
+            print("HTTP Status Code: \(httpStatusCode)")
+            print("Error Message: \(errorMessage)")
+            DispatchQueue.main.async {
+                Toast.ok(view: self, title: "Error: \(httpStatusCode)", message: "\(errorMessage)")
+            }
+            
+        })
         
         
     }
